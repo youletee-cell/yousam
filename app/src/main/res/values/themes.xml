@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme Material Design 3 -->
+    <style name="Base.Theme.Joyeriayuosam" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_dark_charcoal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/deep_gold</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/warm_champagne</item>
+        <item name="android:colorBackground">@color/pearl_background</item>
+        <item name="colorSurface">@color/card_white</item>
+        <item name="android:statusBarColor">@color/primary_dark_charcoal</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Joyeriayuosam" parent="Base.Theme.Joyeriayuosam" />
+</resources>

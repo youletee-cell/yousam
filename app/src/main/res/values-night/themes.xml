@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme in dark mode -->
+    <style name="Base.Theme.Joyeriayuosam" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_dark_charcoal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/warm_champagne</item>
+        <item name="colorOnSecondary">@color/primary_dark_charcoal</item>
+        <item name="colorTertiary">@color/deep_gold</item>
+        <item name="android:statusBarColor">@color/primary_dark_charcoal</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta "Elegance Gold & Pearl" (Material Design 3) -->
+    <color name="primary_dark_charcoal">#1C1917</color>
+    <color name="deep_gold">#D97706</color>
+    <color name="deep_gold_dark">#B45309</color>
+    <color name="warm_champagne">#F59E0B</color>
+    <color name="rose_gold_danger">#E11D48</color>
+    <color name="pearl_background">#FAFAF9</color>
+    <color name="card_white">#FFFFFF</color>
+
+    <!-- Textos y Estado de Stock -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="dialog_text_black">#000000</color>
+
+    <color name="stock_normal">#16A34A</color>
+    <color name="stock_low">#E11D48</color>
+    <color name="stock_low_bg">#FFE4E6</color>
+    <color name="stock_normal_bg">#DCFCE7</color>
+</resources>

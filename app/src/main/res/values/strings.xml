@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TDA Joyería YouSam</string>
+    <string name="app_subtitle">Gestión de Inventario (TDA &amp; MVP)</string>
+
+    <!-- Resumen Financiero -->
+    <string name="summary_total_value_title">Valor Total Inventario</string>
+    <string name="summary_total_items_title">Total Joyas Registradas</string>
+    <string name="search_hint">Buscar por código, nombre, categoría o material...</string>
+    <string name="empty_inventory_message">No hay joyas registradas en el inventario.</string>
+    <string name="empty_search_message">No se encontraron joyas que coincidan con la búsqueda.</string>
+
+    <!-- Acciones -->
+    <string name="action_add_joya">Agregar Joya</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_sell">Vender / Venta</string>
+    <string name="action_discount">Descuento</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_update">Actualizar</string>
+
+    <!-- Labels Formulario -->
+    <string name="dialog_add_title">Registrar Nueva Joya</string>
+    <string name="dialog_edit_title">Editar Joya</string>
+    <string name="label_id">Código ID (e.g. JOY-001)</string>
+    <string name="label_nombre">Nombre Comercial</string>
+    <string name="label_categoria">Categoría de Joya</string>
+    <string name="label_material">Material de Fabricación</string>
+    <string name="label_precio">Precio Base ($)</string>
+    <string name="label_stock">Stock (Máx 10)</string>
+    <string name="label_vender_cantidad">Cantidad a Vender</string>
+
+    <!-- Stock Labels -->
+    <string name="stock_status_available">Stock Disponible</string>
+    <string name="stock_status_low">¡Stock Crítico! (≤ 2)</string>
+
+    <!-- Mensajes de Confirmación y Error -->
+    <string name="confirm_delete_title">¿Eliminar Joya?</string>
+    <string name="confirm_delete_message">¿Está seguro de eliminar la joya con código %1$s de la base de datos?</string>
+    <string name="error_invalid_input">Complete todos los campos obligatorios.</string>
+    <string name="error_invalid_price">El precio debe ser mayor a cero.</string>
+    <string name="error_invalid_stock">El stock debe estar entre 0 y 10 unidades.</string>
+    <string name="error_duplicate_id">El código ID ya existe en el inventario.</string>
+    <string name="success_add">Joya registrada correctamente en SQLite.</string>
+    <string name="success_update">Joya actualizada correctamente.</string>
+    <string name="success_delete">Joya eliminada de SQLite.</string>
+    <string name="success_sale">Venta procesada exitosamente.</string>
+</resources>
